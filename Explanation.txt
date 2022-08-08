@@ -1,0 +1,5 @@
+﻿1. public DbSet<MvcMovie.Models.Book> Book { get; set; }
+Контекст базы данных наследуется от Microsoft.EntityFrameworkCore.DbContext 
+и определяет сущности, которые необходимо включить в модель данных.
+В даном случае сущность Book добавляеться в модель даных.
+2. TagHelper
